@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView{
+            ScrollView(showsIndicators:false){
                 ForEach(filterRating,id:\.id) { food in
                     FoodCardView(
                         foodItem: food,
