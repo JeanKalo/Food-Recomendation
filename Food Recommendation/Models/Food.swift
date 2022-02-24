@@ -41,7 +41,7 @@ class Food : ObservableObject {
         willSet {
             if newValue {
                 numberOfLikes = numberOfLikes + 1
-            }else{
+            } else {
                 numberOfLikes = numberOfLikes - 1
             }
         }

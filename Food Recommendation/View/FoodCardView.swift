@@ -63,7 +63,7 @@ struct FoodCardView : View {
                
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    //MARK: despues de 2 segundos le pedimos a los datos que cambien su estado
+                    //MARK: despues de 1 segundos le pedimos a los datos que cambien su estado
                     withAnimation(Animation.easeInOut){
                         isUserFavorite.toggle()
                     }
